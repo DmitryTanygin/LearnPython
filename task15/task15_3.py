@@ -11,4 +11,5 @@ def convert_ios_nat_to_asa(file_nat, file_asa):
                     f" nat {match.group('intf')} static interface service tcp {match.group('port1')} {match.group('port2')}\n")
 
 
-convert_ios_nat_to_asa('cisco_nat_config.txt', 'asa_config.txt')
+if __name__ == "__main__":
+    convert_ios_nat_to_asa('cisco_nat_config.txt', 'asa_config.txt')
