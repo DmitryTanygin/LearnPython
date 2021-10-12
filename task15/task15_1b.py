@@ -2,8 +2,6 @@ import re
 
 
 def get_ip_from_cfg(filename):
-    regex = (r'interface (?P<interface>\S+)'
-             r'|ip address (?P<ip>\S+)\s+(?P<mask>\S+)')
     result = {}
     with open(filename) as f:
         for line in f:
