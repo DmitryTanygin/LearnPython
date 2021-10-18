@@ -16,5 +16,5 @@ def get_ints_without_description(filename):
         return result
 
 
-
-print(get_ints_without_description('config_r1.txt'))
+if __name__ == "__main__":
+    print(get_ints_without_description('config_r1.txt'))

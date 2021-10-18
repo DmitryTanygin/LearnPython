@@ -15,4 +15,5 @@ def get_ip_from_cfg(filename):
     return result
 
 
-print(get_ip_from_cfg('config_r2.txt'))
+if __name__ == "__main__":
+    print(get_ip_from_cfg('config_r2.txt'))
