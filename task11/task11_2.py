@@ -1,4 +1,4 @@
-from task11_1 import parse_cdp_neighbors
+from LearnPython.task11.task11_1 import parse_cdp_neighbors
 from pprint import pprint
 
 infiles = ["sh_cdp_n_sw1.txt", "sh_cdp_n_r1.txt", "sh_cdp_n_r2.txt", "sh_cdp_n_r3.txt"]
